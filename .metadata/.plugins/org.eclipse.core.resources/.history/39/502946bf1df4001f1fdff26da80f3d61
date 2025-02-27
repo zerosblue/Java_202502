@@ -1,0 +1,17 @@
+package ch02.sec07;
+
+public class VariableScopeExample {
+
+	public static void main(String[] args) {
+		
+		int num = 10;
+		{
+			int m1 = 20;
+			System.out.println(num);
+		}
+		
+		System.out.println(num);
+
+	}
+
+}

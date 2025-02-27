@@ -1,0 +1,32 @@
+package ch01.sec08;
+
+// 첫번째 프로그램
+//Hello java 문장 출력
+
+/*ㅓ린ㅁ러ㅣㄴ뫄;ㅁ니람뇔;ㅏㅗㄴ
+ * 다중주석이래
+ * 그러니까 말이야 
+ * 이거 왜 앞에
+ * 별표가 계속 뜨냐?
+ * 이해가 안가네
+ * */
+
+
+
+public class Hello {
+public static void main(String[] args) {
+       System.out.println("sysout + ctrl 안녕 반가워");
+       
+       int a = 10;
+       int b = 20;
+       int c = 30;
+       
+       int d = a+b+c;
+       System.out.println(d));
+       
+      
+       
+       //오늘 주석도 배운다
+       
+}
+}

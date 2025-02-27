@@ -1,0 +1,34 @@
+package ch01.ex05;
+
+import java.util.Scanner;
+
+public class Exam_문제1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		System.out.print("초를 입력하세요 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		int str = Integer.parseInt(sc .nextLine());
+		
+		
+		int a = str /360;
+		int b = str / 60;
+		int c = str;
+		
+		System.out.println(a,b,c);
+				
+				
+				
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
