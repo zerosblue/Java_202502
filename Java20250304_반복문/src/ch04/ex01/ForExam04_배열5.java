@@ -27,7 +27,7 @@ public class ForExam04_배열5 {
 		int max = student[0];
 		int min = student[0];
 		
-		for(int i=0;i<7;i++) {
+		for(int i=0; i<7; i++) {
 			
 			if(max < student[i])
 				max = student[i];
@@ -52,12 +52,14 @@ public class ForExam04_배열5 {
 		int index = -1;
 		System.out.print("찾을 숫자를 입력하세요");
 		int numA = sc.nextInt();
+		int i = 0;
 		
 
 		
-		for (int i=0;i<7;i++) {
+		for ( i=0;i<7;i++) {
 			if(numA == student[i]) {
 				index = i;
+			break;
 				
 			}
 		}
