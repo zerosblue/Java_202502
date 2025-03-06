@@ -12,9 +12,9 @@ public class 연습문제5장9번 {
 		
 		 while (flag) {
 			 
-	            System.out.println("------------------------------------");
+	            System.out.println("--------------------------------------------");
 	            System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
-	            System.out.println("------------------------------------");
+	            System.out.println("--------------------------------------------");
 	            System.out.print("선택>> ");
 	            number = Integer.parseInt(sc.nextLine());
 	            
@@ -50,6 +50,7 @@ public class 연습문제5장9번 {
 	            	
 	            }else if(number ==5) {
 	            	flag = false;
+	            	System.out.println("프로그램 종료");
 	            	
 	            }
 			 

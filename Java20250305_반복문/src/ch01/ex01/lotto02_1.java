@@ -4,6 +4,8 @@ import java.util.Random;
 
 public class lotto02_1 {
 
+	private static int i;
+
 	public static void main(String[] args) {
 
 		/*
