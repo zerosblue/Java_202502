@@ -2,33 +2,27 @@ package ch06.sec06.exam02;
 
 public class Car {
 	
-	private String company = "현대자동차";
+	private String company;
 	private String model;
-	private String color;
-	int maxSpeed;
+	private String year;
 	
-	String getCompany() {
-		return company;
-	}
 	
-	Car(){
-		
-	}
-	
-	Car(String model){
-		this.model =model;
-		
-	}
-	Car(String model,String color){
+	Car(String company,String model,String year) {
+		this.company = company;
 		this.model = model;
-		this.color = color;
+		this.year = year;
 	}
-	
-	Car(String model,String color,int maxSpeed){
-		this.model = model;
-		this.color = color;
-		this.maxSpeed = maxSpeed;
-	}
+
+		void startEngine() {
+	        System.out.println("["+company + "] [" + model + "]의 엔진이 시작되었습니다.");
+		}
+
+		void displayInfo() {
+			System.out.println("["+year+"]년식 ["+ company+"] [" + model +"]");
+		}
+		
+}
 	
 
-}
+
+

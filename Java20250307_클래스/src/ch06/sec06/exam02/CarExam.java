@@ -1,15 +1,25 @@
 package ch06.sec06.exam02;
 
+import ch02.e04.BankAccount;
+
 public class CarExam {
 
 	public static void main(String[] args) {
 		
-		Car car1 = new Car();
-		System.out.println(car1.getCompany());
+		Car car = new Car("Hyundai", "Sonata","2023");
 		
-		System.out.println();
 		
-		Car car2 = new Car("자가용");
+		
+		
+		
+		car.startEngine();
+		car.displayInfo();
+		
+
+		
+
+		
+
 		
 		
 
