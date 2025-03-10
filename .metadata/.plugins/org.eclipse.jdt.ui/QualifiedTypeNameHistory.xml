@@ -5,4 +5,10 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="ch02.e01.MainPerson"/>
+    <fullyQualifiedTypeName name="java.beans.PersistenceDelegate"/>
+    <fullyQualifiedTypeName name="ch02.e01.Person"/>
+    <fullyQualifiedTypeName name="ch02.e03.Person"/>
+    <fullyQualifiedTypeName name="ch02.e04.BankAccount"/>
+    <fullyQualifiedTypeName name="ch10.Ex01.Member"/>
 </qualifiedTypeNameHistroy>
