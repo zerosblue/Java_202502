@@ -8,13 +8,17 @@ class GrandParent{
 	}
 }
 class Parent extends GrandParent{
+
 	int age;
 	Parent(String grandPapa, int age){
 		super(grandPapa);
 		this.age = age;
 	}
-	
-}
+	void displayInfo() {
+		System.out.println("할아버지 성함 : " + grandPapa);
+		System.out.println("아버지 연세: " + age);
+	}
+	}
 	
 
 class Child extends Parent{
@@ -25,9 +29,11 @@ class Child extends Parent{
 		this.hobby = hobby; 
 	}
 	void displayInfo() {
+		System.out.println("===============================");
 		System.out.println("할아버지 성함 : " + grandPapa);
 		System.out.println("아버지 연세: " + age);
-		System.out.println("나의 취미ㄴ : " + hobby);
+		System.out.println("나의 취미는 : " + hobby);
+		System.out.println("===============================");
     }
 }
 
@@ -37,9 +43,12 @@ public class MainClass {
 		Child child = new Child("김철수",50,"야구");
 		child.displayInfo();
 		
-				
-				
+		
+		Parent p1 = new Parent("홍길동",100);
+		p1.displayInfo();
 
+	
 	}
-
+	
 }
+
