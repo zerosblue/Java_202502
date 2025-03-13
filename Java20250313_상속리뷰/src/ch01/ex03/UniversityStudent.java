@@ -1,4 +1,4 @@
-package ch01.ex02;
+package ch01.ex03;
 
 public class UniversityStudent extends Student{
  	
