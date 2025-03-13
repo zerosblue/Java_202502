@@ -1,10 +1,16 @@
-package ch01.ex01;
+package ch01.ex02;
 
 public class Person {
 	
 	private String name;
 	private int age;
 	private String gender;
+	
+	Person(){};
+	Person(String name,int age){
+		this.name = name;
+		this.age =age;
+	}
 	
 	public String getName() {
 		return name;
