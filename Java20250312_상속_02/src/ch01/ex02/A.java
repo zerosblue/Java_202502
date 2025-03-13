@@ -1,4 +1,4 @@
-package ch01.ex01;
+package ch01.ex02;
 
 public class A {
 	
@@ -8,6 +8,10 @@ public class A {
 		this.name = name;
 	}
 	A(){}
+	
+	void test() {
+		System.out.println("A class");
+	}
 	void funcA(){
 		System.out.println("funcA");
 	}
@@ -20,6 +24,10 @@ class B extends A{
 		super(n2);
 		this.address = address;
 	}
+	@Override
+	void test() {
+		System.out.println("B class");
+	}
 	void funcB(){
 		System.out.println("funcB");
 	}
@@ -31,6 +39,10 @@ class C extends B{
 	C(String n, String a, int age){
 		super(n,a);
 		this.age =age;
+	}
+	@Override
+	void test() {
+		System.out.println("C class");
 	}
 	void funcC(){
 		System.out.println("funcC");
